@@ -13,7 +13,7 @@
 
 ### Project Overview
 
-The primary purpose of this analysis is to provide insights into workforce patterns that can support data-driven human resource decision-making within the organization.
+The primary purpose of this analysis is to provide insight into workforce patterns that can support data-driven human resource decision-making within the organization.
 
 ### Data Source
 
