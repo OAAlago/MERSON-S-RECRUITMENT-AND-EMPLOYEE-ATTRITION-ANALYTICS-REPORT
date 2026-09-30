@@ -63,7 +63,8 @@ Employee performance quality varies meaningfully by recruitment source. Diversit
   
 Terminated employee counts varied considerably by recruitment source. Google Search recorded the highest number of terminations (30), followed by Indeed (21), LinkedIn (18), Diversity Job Fair (16) and CareerBuilder (11), while Employee Referral (5), Website (1), Online Web Application (1) and Other (1) recorded far fewer. 
 
-* 3rd Objective: To analyze the reasons for employee termination and identify the major drivers of attrition.
+* **3rd Objective: To analyze the reasons for employee termination and identify the major drivers of attrition.**
+
 The analysis shows that employee departures were concentrated around a small number of recorded reasons. "Another position" (20 cases), "Unhappy" (14), "More money" (11), "Career change" (9), and "Hours" (8) collectively accounted for 59.6% of all 104 recorded terminations. Attendance-related exits (7) and "Performance" (4) followed.
 
 * **4th Objective:  Examine attrition levels across different departments**
