@@ -39,54 +39,65 @@ Employee_Name,EmpID,Salary,Position,State,DOB,Sex,MaritalDesc,RaceDesc,DateofHir
 ##### Tranformation
 The cleaned dataset was imported into Power BI environment for analysis. As part of the data preparation process, the dataset was transformed by creating the following column and measures using DAX functions.
 
-| DAX Functions |   Measures   |
-|---------------|--------------|
-|AVERAGE        |Average Price |
-|CALCULATE      |Top Country   |
-|CALCULATE      |Top Color     |
-|SUM            |Total Quantity|          |
-|SUM            |Total Sales   |          |
-|SUM            |Total Orders  |          |
-|SUM            |              |TotalSales| 
+
+|MEASURES	              |DAX FUNCTION|
+|-----------------------|------------|
+|Active Employees	      |COUNT       |
+|Attrition Rate	        |DIVIDE      |
+|Average Satisfaction	  |AVERAGE     |
+|Exceeds Expectations	  |CALCULATE   |
+|Exceeds Percentage	    |CALCULATE   |
+|Retention Rate	        |CALCULATE   |
+|Terminated Employees	  |CALCULATE   |
+|Total Employees	      |COUNT       |
+|Voluntary Terminations |CALCULATE   |
+
 
 ##### Analysis and Insights
-1st Objective: Analyze iPhone sales performance by Country, iPhone model and month.
 
-* Sales performance by country: The UK performed the most in sales with 118K, USA with 115K, Canada with 84K, UAE with 78K, Germany with 53K and Pakistan with 47K.
-* Sales performance by iPhone model: The iPhone 14 pro performed the most with 115K in sales, followed by the iPhone 15 pro max with 101K in sales. 
-* Sales Monthly trend: The iPhone experienced a downward sales trend with 160K in the month of January compared to 99K in April.  
+* 1st Objective: To analyze employee performance across different recruitment sources.
+Employee performance quality varies meaningfully by recruitment source. Diversity Job Fair hires recorded the highest proportion of employees rated "Exceeds Expectations" at 20.7%, followed by Employee Referral at 16.1%.
 
+* 2nd Objective: To examine employee attrition patterns across recruitment sources.
+Terminated employee counts varied considerably by recruitment source. Google Search recorded the highest number of terminations (30), followed by Indeed (21), LinkedIn (18), Diversity Job Fair (16) and CareerBuilder (11), while Employee Referral (5), Website (1), Online Web Application (1) and Other (1) recorded far fewer. 
 
-2nd Objective: Analyze customer purchasing patterns by storage, color and model.
+* 3rd Objective: To analyze the reasons for employee termination and identify the major drivers of attrition.
+The analysis shows that employee departures were concentrated around a small number of recorded reasons. "Another position" (20 cases), "Unhappy" (14), "More money" (11), "Career change" (9), and "Hours" (8) collectively accounted for 59.6% of all 104 recorded terminations. Attendance-related exits (7) and "Performance" (4) followed.
 
-* Most popular color: Out of 100 orders, there were 25 orders for iPhones with the color blue, making it the most popular color.
-* Most popular storage: Out of 100 orders, there were 38 orders for iPhones with 256GB making it the most popular storage choice among the customers. 
-* Most purchased iPhone model: Out of 100 orders, there were 24 orders for the iPhone 14 pro, making it the customer’s favorite. 
+* 4th Objective:  Examine attrition levels across different departments 
+Attrition is heavily concentrated in specific departments. Production recorded the highest attrition rate at 39.7%, followed by Software Engineering at 36.4%, Admin Offices at 22.2%, IT/IS at 20.0%, and Sales at the lowest, 16.1%. 
+
+* 5th Objective: To evaluate recruitment sources based on employee retention, performance, and satisfaction outcomes.
+Employment outcomes differ sharply by recruitment source. Website (92.3% active), Employee Referral (83.9% active) and LinkedIn (76.3% active) produced the strongest retention outcomes, while On-line Web Application (0% active, single hire), Google Search (38.8% active) and Diversity Job Fair (44.8% active) produced the weakest. 
+ 
 
 
 ### Visualization
-### iPhone Sales Performance
-<img width="440" height="246" alt="Screenshot 2026-08-29 120532" src="https://github.com/user-attachments/assets/de27b6a1-73fc-4d6d-aefc-d2419bafb53d" />
+### Workforce and Recruitment Overview Dashboard
+<img width="975" height="558" alt="image" src="https://github.com/user-attachments/assets/3f398d9d-f78a-45aa-985e-a603a1b5f6a1" />
 
-### Customer Purchasing Patterns
-<img width="434" height="248" alt="Screenshot 2026-08-29 120554" src="https://github.com/user-attachments/assets/ed4edb41-888c-496b-b4a4-d13c456df677" />
+### Attrition Analysis Dashboard
+<img width="975" height="552" alt="image" src="https://github.com/user-attachments/assets/08da782a-95ea-4d1b-a7be-02a4f678b761" />
+
 
 
 ### Recommendations
 Based on the analysis, we recommend the following actions:
 
-- Address Weak Sales Performance in Pakistan.
-- Improve the Performance of Underperforming iPhone Models.
-- Address the Declining Monthly Sales Trend.
-- Address Low Demand for Less Popular Colors.
-- Reduce the Risk of Slow-Moving Storage Options.
-- Improve the Quality and Coverage of Future Sales Data.
+- Recruitment Source Distribution
+- Attrition Across Recruitment Sources
+- Reasons for Employee Termination
+- Performance and Attrition
+- Recruitment Source and Employee Outcomes
+
+
 
 ### Limitations
-- The dataset only covers transactions from Jan 1, 2025 to May 1, 2025. As a result, findings may not reflect long term sales trends.
-- The analysis is limited to the countries present in the dataset and may not represent the company’s performance in other countries.
-- The dataset has limited customer information limiting customer behavior analysis.
-- The Price column is generalized, so there is no way to know if the price of each iPhone model is per country or standard iPhone price.
+- The dataset represents employee information from a specific period and may not reflect the organization's current workforce structure, recruitment practices, or employee outcomes.
+- The dataset identifies the recruitment source used for employees but does not contain detailed information about recruitment costs, time-to-hire, candidate qualifications, or the recruitment process. 
+- Although termination reasons are recorded, the dataset does not provide detailed qualitative information explaining the circumstances behind each departure. 
+- Employee performance is recorded using categorical performance classifications rather than continuous performance measurements. 
+
 
 
 
