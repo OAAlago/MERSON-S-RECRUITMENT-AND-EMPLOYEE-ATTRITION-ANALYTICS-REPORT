@@ -55,19 +55,23 @@ The cleaned dataset was imported into Power BI environment for analysis. As part
 
 ##### Analysis and Insights
 
-* 1st Objective: To analyze employee performance across different recruitment sources.
+* **1st Objective: To analyze employee performance across different recruitment sources.**
+  
 Employee performance quality varies meaningfully by recruitment source. Diversity Job Fair hires recorded the highest proportion of employees rated "Exceeds Expectations" at 20.7%, followed by Employee Referral at 16.1%.
 
-* 2nd Objective: To examine employee attrition patterns across recruitment sources.
+* **2nd Objective: To examine employee attrition patterns across recruitment sources.**
+  
 Terminated employee counts varied considerably by recruitment source. Google Search recorded the highest number of terminations (30), followed by Indeed (21), LinkedIn (18), Diversity Job Fair (16) and CareerBuilder (11), while Employee Referral (5), Website (1), Online Web Application (1) and Other (1) recorded far fewer. 
 
 * 3rd Objective: To analyze the reasons for employee termination and identify the major drivers of attrition.
 The analysis shows that employee departures were concentrated around a small number of recorded reasons. "Another position" (20 cases), "Unhappy" (14), "More money" (11), "Career change" (9), and "Hours" (8) collectively accounted for 59.6% of all 104 recorded terminations. Attendance-related exits (7) and "Performance" (4) followed.
 
-* 4th Objective:  Examine attrition levels across different departments 
+* **4th Objective:  Examine attrition levels across different departments**
+  
 Attrition is heavily concentrated in specific departments. Production recorded the highest attrition rate at 39.7%, followed by Software Engineering at 36.4%, Admin Offices at 22.2%, IT/IS at 20.0%, and Sales at the lowest, 16.1%. 
 
-* 5th Objective: To evaluate recruitment sources based on employee retention, performance, and satisfaction outcomes.
+* **5th Objective: To evaluate recruitment sources based on employee retention, performance, and satisfaction outcomes.**
+  
 Employment outcomes differ sharply by recruitment source. Website (92.3% active), Employee Referral (83.9% active) and LinkedIn (76.3% active) produced the strongest retention outcomes, while On-line Web Application (0% active, single hire), Google Search (38.8% active) and Diversity Job Fair (44.8% active) produced the weakest. 
  
 
